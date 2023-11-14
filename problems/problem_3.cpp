@@ -5,24 +5,24 @@ std::string problemSolution3(float height, char S) {
 
     if (S=='M'){
         if (height<170){
-            return "short";
+            return "Short";
         }
         else if (height>=170 and height<185){
-            return "normal";
+            return "Normal";
         }
         else{
-            return "tall";
+            return "Tall";
         }
     }
     else if (S=='F'){
         if (height<160){
-            return "short";
+            return "Short";
         }
         else if (height>=160 and height<175){
-            return "normal";
+            return "Normal";
         }
         else{
-            return "tall";
+            return "Tall";
         }
     }
     return "";
